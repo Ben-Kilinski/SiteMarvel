@@ -4,11 +4,12 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto; 
     min-height: 100vh;
+    background-color: rgb(186, 30, 30);
   }
   
   .header {
     background-color: #333;
-    background-color: red;
+    background-color: rgb(211, 22, 22);
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -18,12 +19,12 @@ body {
   .header img{
     width: 15vw;
     height: auto;
-    justify-content:center;
-    display: flex;
+   display: flex;
+   justify-content: center;
   }
 
   .navbar {
-    background-color: red;
+    background-color: rgb(211, 22, 22);
     padding: 10px 0;
     color: white;
    
@@ -56,8 +57,8 @@ body {
   }
   
   .footer {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     padding: 10px;
   }
  
@@ -86,7 +87,7 @@ body {
   
   .footer-nav a {
     text-decoration: none;
-    color: black solid bold;
+   
     transition: color 0.3s;
     font-size: 70%;
     text-align: center;
@@ -106,12 +107,14 @@ body {
   .footer img{
     width: 30px;
     height: 30px;
+    border-radius: 50%;
 
   }
   
 
   .image-slider {
     width: 100%;
+    height: auto;
     overflow: hidden;
   }
   
@@ -126,19 +129,12 @@ body {
   }
   
   @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-200%); 
-    }
+    0%{transform: translateX(0)}
+    100%{transform: translateX(-200%);}
+    0%{transform: translateX(0)}
   }
   
-  
-  
-  
-  
-  
+ 
   
   
   
